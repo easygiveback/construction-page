@@ -1,0 +1,21 @@
+@import '../../styles/variables.scss';
+@import '../../styles/mixins.scss';
+
+.livecount {
+	&__timer {
+	}
+
+	&__clock {
+		display: flex;
+		justify-content: center;
+	}
+
+	&__numbers {
+		font-size: 100px;
+		font-weight: bold;
+
+		&__days {
+			margin-right: 50px;
+		}
+	}
+}

@@ -1,0 +1,17 @@
+.header {
+
+  display: flex;
+  justify-content: space-between;
+  margin: 5vh 8vw 5vh;
+
+  &__iconwrapper {
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__icons {
+    width: 27px;
+    height: 27px;
+  }
+}
