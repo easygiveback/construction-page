@@ -2,44 +2,50 @@
 @import '../../styles/mixins.scss';
 
 .footer {
-	height: 100px;
-	margin: gap(2);
-	color: #fff;
+  height: 100px;
+  margin: gap(2);
+  color: #fff;
 
-	&__inner {
-		max-width: 1440px;
-		width: 100%;
-		display: flex;
-		justify-content: space-between;
-		margin: 0 auto;
-	}
 
-	&__container {
-		width: 100%;
-	}
+  &__inner {
+    max-width: 1440px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+  }
 
-	&__wrapper {
-		display: flex;
-		justify-content: space-around;
-		width: 430px;
-		height: 58px;
-	}
+  &__container {
+    width: 100%;
 
-	&__logo {
-		height: 54px;
-		width: 58px;
-	}
+    &__hdm-logo {
+      margin-left: 80%;
+    }
+  }
 
-	&__contact {
-		display: flex;
-		justify-content: space-between;
-	}
+  &__wrapper {
+    display: flex;
+    justify-content: space-around;
+    width: 430px;
+    height: 58px;
+  }
 
-	&__contact-wrapper {
-		width: 180px;
-	}
+  &__logo {
+    height: 54px;
+    width: 58px;
+  }
 
-	&__headlinemargin {
-		margin-bottom: 10px;
-	}
+  &__contact {
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+  }
+
+  &__contact-wrapper {
+    width: 180px;
+  }
+
+  &__headlinemargin {
+    margin-bottom: 10px;
+  }
 }
