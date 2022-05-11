@@ -2,7 +2,7 @@
 @import '../../styles/mixins.scss';
 
 .card {
-  width: 70%;
+
 
   border-radius: $border-radius;
   overflow: hidden;
@@ -11,9 +11,11 @@
   justify-content: center;
   @include xs {
     height: 600px;
+    width: 95%;
   }
   @include xl {
     height: 480px;
+    width: 70%;
   }
 
   @include xl {

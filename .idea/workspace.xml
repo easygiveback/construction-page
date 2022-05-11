@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d584baa0-eea2-486c-b343-f8680993c74c" name="Changes" comment="add vercel and github logo">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Footer/footer.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/footer.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Card/card.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Card/card.module.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +50,7 @@
       <workItem from="1652256694822" duration="136000" />
       <workItem from="1652257219142" duration="128000" />
       <workItem from="1652257401239" duration="647000" />
-      <workItem from="1652258070559" duration="61000" />
+      <workItem from="1652258070559" duration="2175000" />
     </task>
     <task id="LOCAL-00001" summary="add vercel and github logo">
       <created>1652257453451</created>
