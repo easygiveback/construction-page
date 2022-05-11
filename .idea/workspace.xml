@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d584baa0-eea2-486c-b343-f8680993c74c" name="Changes" comment="add vercel and github logo">
+    <list default="true" id="d584baa0-eea2-486c-b343-f8680993c74c" name="Changes" comment="test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Card/card.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Card/card.module.scss" afterDir="false" />
     </list>
@@ -50,7 +50,7 @@
       <workItem from="1652256694822" duration="136000" />
       <workItem from="1652257219142" duration="128000" />
       <workItem from="1652257401239" duration="647000" />
-      <workItem from="1652258070559" duration="2175000" />
+      <workItem from="1652258070559" duration="2771000" />
     </task>
     <task id="LOCAL-00001" summary="add vercel and github logo">
       <created>1652257453451</created>
@@ -59,7 +59,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652257453451</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="test">
+      <created>1652271733561</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1652271733562</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -78,6 +85,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add vercel and github logo" />
-    <option name="LAST_COMMIT_MESSAGE" value="add vercel and github logo" />
+    <MESSAGE value="test" />
+    <option name="LAST_COMMIT_MESSAGE" value="test" />
   </component>
 </project>
