@@ -17,11 +17,14 @@ root.render(
 		<Helmet>
 			<meta charSet='utf-8' />
 			<title>easygiveback – Einfach Gutes tun.</title>
-			<link rel='canonical' href='https://easygiveback.org' />
+			<link rel='canonical' href='https://easygiveback.com' />
 			<meta
 				name='description'
-				content='Web site created using create-react-app'
+				content='Die Spendenseite easygiveback.de ist eine Plattform, über die man einfach und effizient Geld an Wohltätigkeitsorganisationen oder gemeinnützige Vereine spenden kann.'
 			/>
+		<meta name='keywords'
+					content='easygiveback, gutes tun, spendenseite, einfach spenden, spenden gemeinnütziger verein, hochschule der medien, hdm'
+		/>
 			<link
 				rel='icon'
 				href='https://hdm.easygiveback.de/wp-content/uploads/2022/01/cropped-Favicon_blau-1-32x32.png'
