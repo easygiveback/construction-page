@@ -7,9 +7,6 @@ import Card from "./components/Card/card";
 // Import pages
 import Imprint from "./pages/imprint";
 
-const URL =
-  "https://wnklr.art/wp-json/wp/v2/organisationen/686?_fields=acf&acf_format=standard";
-
 function App() {
   return (
     <>

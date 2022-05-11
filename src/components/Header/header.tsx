@@ -25,6 +25,12 @@ const Header = () => {
         >
           <img className={styles["header__icons"]} src="linkedin-icon.png" />
         </a>
+        <a href="https://github.com/easygiveback" target="_blank">
+          <img
+            className={styles["header__icons"]}
+            src="./GitHub-Mark-Light-32px.png"
+          />
+        </a>
       </div>
     </div>
   );
