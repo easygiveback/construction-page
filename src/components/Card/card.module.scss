@@ -123,10 +123,16 @@
     &__text {
       margin: auto;
 
+      @include xs {
+        padding: 0px 20px 0px 20px ;
+      }
+      @include sm {
+
+      }
       p {
 
         @include xs {
-          font-size: 16px !important;
+          font-size: 14px !important;
           line-break: auto;
         }
         @include sm {

@@ -31,11 +31,16 @@
 
       @include xs {
         margin-top: 1rem;
-        justify-content: center;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
       }
       @include md {
         margin-top: 0rem;
+        flex-direction: row;
+        text-align: left;
         justify-content: left;
+        align-items: flex-start;
       }
     }
   }
