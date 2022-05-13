@@ -3,36 +3,56 @@
 @import url('https://fonts.googleapis.com/css?family=Inter');
 
 * {
-	padding: 0;
-	margin: 0;
-	box-sizing: border-box;
-	list-style: none;
-	text-decoration: none;
-	font-family: Inter;
-	color: white;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: Inter;
+  color: white;
+  font-size: 16px;
 }
+
 
 html,
 body {
-	overflow-x: hidden;
+  overflow-x: hidden;
 }
 
-h1 {
-	font-size: 24px;
-	line-height: 1.3;
-
-	@include md {
-		font-size: calc(54px + 0.2vw);
-		line-height: 1.3;
-	}
-
-	@include xl {
-		font-size: calc(94px + 0.2vw);
-		line-height: 1.3;
-	}
+body {
+  min-height: 100vh;
 }
+
+h1, h1 > span {
+
+  line-height: 1.3;
+  margin-top: 3%;
+  @include xs {
+    font-size: calc(40px + 0.2vw);
+    line-height: 1.3;
+  }
+  @include md {
+    font-size: calc(44px + 0.2vw);
+    line-height: 1.3;
+  }
+  @include xl {
+    font-size: calc(50px + 0.2vw);
+    line-height: 1.3;
+  }
+  @include xxl {
+    font-size: calc(60px + 0.2vw);
+    line-height: 1.3;
+  }
+
+
+}
+
 
 h2 {
-	font-size: 48px;
-	font-weight: lighter;
+  font-size: 28px;
+  font-weight: lighter;
+}
+
+a {
+  text-decoration: underline;
 }

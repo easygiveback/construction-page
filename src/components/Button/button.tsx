@@ -1,6 +1,5 @@
-import { FC, useState } from "react";
+import { FC } from "react";
 import styles from "./button.module.scss";
-import LiveCount from "../LiveCount/livecount";
 
 interface ButtonProps {
   setFlipMe: () => void;

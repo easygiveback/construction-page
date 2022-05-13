@@ -1,65 +1,65 @@
 // breakpoints
 $grid-breakpoints: (
-	xs: 0,
-	sm: 576px,
-	md: 768px,
-	lg: 992px,
-	xl: 1200px,
-	xxl: 1400px,
-	3xl: 1800px,
+        xs: 0,
+        sm: 576px,
+        md: 768px,
+        lg: 992px,
+        xl: 1200px,
+        xxl: 1400px,
+        3 xl: 1800px,
 );
 
 // gap used for spacing
 $gap: 10px;
 @function gap($factor) {
-	@return $gap * $factor;
+  @return $gap * $factor;
 }
 
 @mixin breakpoint($px) {
-	@media only screen and (min-width: $px) {
-		@content;
-	}
+  @media only screen and (min-width: $px) {
+    @content;
+  }
 }
 
 // Mediaquery mixins
 @mixin xs() {
-	@media only screen and (min-width: map-get($grid-breakpoints, xs)) {
-		@content;
-	}
+  @media only screen and (min-width: map-get($grid-breakpoints, xs)) {
+    @content;
+  }
 }
 
 @mixin sm() {
-	@media only screen and (min-width: map-get($grid-breakpoints, sm)) {
-		@content;
-	}
+  @media only screen and (min-width: map-get($grid-breakpoints, sm)) {
+    @content;
+  }
 }
 
 @mixin md() {
-	@media only screen and (min-width: map-get($grid-breakpoints, md)) {
-		@content;
-	}
+  @media only screen and (min-width: map-get($grid-breakpoints, md)) {
+    @content;
+  }
 }
 
 @mixin lg() {
-	@media only screen and (min-width: map-get($grid-breakpoints, lg)) {
-		@content;
-	}
+  @media only screen and (min-width: map-get($grid-breakpoints, lg)) {
+    @content;
+  }
 }
 
 @mixin xl() {
-	@media only screen and (min-width: map-get($grid-breakpoints, xl)) {
-		@content;
-	}
+  @media only screen and (min-width: map-get($grid-breakpoints, xl)) {
+    @content;
+  }
 }
 
 @mixin xxl() {
-	@media only screen and (min-width: map-get($grid-breakpoints, xxl)) {
-		@content;
-	}
+  @media only screen and (min-width: map-get($grid-breakpoints, xxl)) {
+    @content;
+  }
 }
 
 @mixin xxxl() {
-	@media only screen and (min-width: map-get($grid-breakpoints, xxxl)) {
-		@content;
-	}
+  @media only screen and (min-width: map-get($grid-breakpoints, xxxl)) {
+    @content;
+  }
 }
