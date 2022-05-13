@@ -4,7 +4,7 @@
   display: flex;
 
   margin: 5vh 8vw 5vh;
-
+align-items: center;
   @include xs {
     flex-direction: column;
     justify-content: center;
@@ -17,7 +17,7 @@
 
   &__easygivebackImg {
     @include xs {
-      width: 40%;
+      width: 45%;
     }
     @include sm {
       width: 300px;
@@ -28,7 +28,7 @@
     display: flex;
 
     @include xs {
-      width: 100%;
+      width: 50%;
       justify-content: space-evenly;
       margin-top: 1rem;
     }

@@ -25,7 +25,7 @@ const Card: FC<CardProps> = ({ isImprint }) => {
 
 
               <Livecount />
-              <h3>Wir sehen uns auf der Media Night.</h3>
+              <h2>Wir sehen uns auf der Media Night.</h2>
               <Button
                 setFlipMe={() => setFlipMe(!flipMe)}
                 name={"Mehr erfahren"}
