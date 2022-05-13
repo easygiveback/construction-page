@@ -8,6 +8,7 @@
   @include xs {
     flex-direction: column;
     justify-content: center;
+    text-align: center;
   }
   @include sm {
     flex-direction: row;
@@ -16,7 +17,7 @@
 
   &__easygivebackImg {
     @include xs {
-      width: 200px;
+      width: 40%;
     }
     @include sm {
       width: 300px;
@@ -24,9 +25,18 @@
   }
 
   &__iconwrapper {
-    width: 140px;
     display: flex;
-    justify-content: space-between;
+
+    @include xs {
+      width: 100%;
+      justify-content: space-evenly;
+      margin-top: 1rem;
+    }
+    @include sm {
+      width: 140px;
+      justify-content: space-between;
+      margin-top: 0;
+    }
   }
 
   &__icons {

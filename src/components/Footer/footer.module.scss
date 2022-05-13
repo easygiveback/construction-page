@@ -19,6 +19,12 @@
 
     &__hdmLogo {
       display: flex;
+      @include xs {
+        margin-top: 1rem;
+      }
+      @include md {
+        margin-top: 0rem;
+      }
     }
   }
 
@@ -32,19 +38,33 @@
   &__logo {
     height: 54px;
     width: 58px;
+    margin-right: 1rem;
   }
 
   &__contact {
     display: flex;
     justify-content: space-between;
     width: 200px;
+
   }
 
   &__contact-wrapper {
     width: 180px;
+    @include xs {
+      margin-top: 1rem;
+    }
+    @include lg {
+      margin-top: 0rem;
+    }
   }
 
   &__headlinemargin {
     margin-bottom: 10px;
+    @include xs {
+      margin-top: 1rem;
+    }
+    @include lg {
+      margin-top: 0rem;
+    }
   }
 }

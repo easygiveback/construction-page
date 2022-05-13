@@ -21,8 +21,9 @@ const Card: FC<CardProps> = ({ isImprint }) => {
         <div className={styles.card}>
           <div className={flip}>
             <div className={styles["card__front"]}>
-              <h1>easygiveback</h1>
-              <h2>Einfach Gutes tun in</h2>
+              <div><h1>easy<span className={styles["card__front__h1divider"]}>giveback</span></h1></div>
+
+
               <Livecount />
               <h3>Wir sehen uns auf der Media Night.</h3>
               <Button
@@ -89,7 +90,7 @@ const Card: FC<CardProps> = ({ isImprint }) => {
                 <p>https://ec.europa.eu/consumers/odr/.</p>
                 <p>Unsere E-Mail-Adresse finden Sie oben im Impressum.</p>
                 <p className={styles["card__imprint__bold"]}>
-                  Verbraucherstreitbeilegung/Universalschlichtungsstelle
+                  Verbraucherstreitbeilegung / Universalschlichtungsstelle
                 </p>
                 <p>
                   Wir sind nicht bereit oder verpflichtet, an

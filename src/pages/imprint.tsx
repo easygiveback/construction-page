@@ -1,5 +1,4 @@
 import Layout from "../components/Layout/layout";
-import { Container, Row, Col } from "reactstrap";
 import BackgroundImage from "../components/Image/image-background";
 import Card from "../components/Card/card";
 
