@@ -4,6 +4,8 @@
 .footer {
   margin: gap(2);
   color: #fff;
+  margin-top: 8vh;
+
 
   &__vercelwrapper {
     display: flex;
@@ -55,7 +57,12 @@
   &__logo {
 
     width: 58px;
-    margin-right: 1rem;
+    @include xs {
+      margin-right: 0rem;
+    }
+    @include md {
+      margin-right: 1rem;
+    }
   }
 
   &__contact {

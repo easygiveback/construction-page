@@ -1,4 +1,9 @@
-main {
-  display: flex;
-  justify-content: center;
+mainwrapper {
+  min-height: 100vh;
+
+  &__main {
+    display: flex;
+    justify-content: center;
+  }
 }
+

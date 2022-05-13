@@ -124,11 +124,12 @@
       margin: auto;
 
       @include xs {
-        padding: 0px 20px 0px 20px ;
+        padding: 0px 20px 0px 20px;
       }
       @include sm {
 
       }
+
       p {
 
         @include xs {
