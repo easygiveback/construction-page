@@ -12,19 +12,19 @@ const Header = () => {
       </a>
       <div className={styles["header__iconwrapper"]}>
         <a href="https://www.facebook.com/easygiveback" target="_blank">
-          <img className={styles["header__icons"]} src="./facebook-icon.png" alt="Facebook Logo"/>
+          <img className={styles["header__icons"]} src="./facebook-icon.png" alt="Facebook Logo" />
         </a>
         <a href="https://www.instagram.com/easygiveback/" target="_blank">
-          <img className={styles["header__icons"]} src="./instagram-icon.png" alt="Instagram Logo"/>
+          <img className={styles["header__icons"]} src="./instagram-icon.png" alt="Instagram Logo" />
         </a>
         <a href="https://www.tiktok.com/@easygiveback" target="_blank">
-          <img className={styles["header__icons"]} src="./tiktok-icon.png" alt="TikTok Logo"/>
+          <img className={styles["header__icons"]} src="./tiktok-icon.png" alt="TikTok Logo" />
         </a>
         <a
           href="https://www.linkedin.com/company/easygiveback/"
           target="_blank"
         >
-          <img className={styles["header__icons"]} src="linkedin-icon.png" alt="LinkedIn Logo"/>
+          <img className={styles["header__icons"]} src="linkedin-icon.png" alt="LinkedIn Logo" />
         </a>
         <a href="https://github.com/easygiveback" target="_blank">
           <img

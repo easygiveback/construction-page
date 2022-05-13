@@ -4,7 +4,7 @@
   display: flex;
 
   margin: 5vh 8vw 5vh;
-align-items: center;
+  align-items: center;
   @include xs {
     flex-direction: column;
     justify-content: center;

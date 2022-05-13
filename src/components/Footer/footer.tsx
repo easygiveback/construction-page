@@ -5,8 +5,8 @@ const Footer = () => {
   return (
     <footer className={styles.footer}>
       <div className={styles["footer__inner"]}>
-        <div >
-          <Row >
+        <div>
+          <Row>
             <Col md={6} lg={3} className={styles["footer__container"]}>
               <div className={styles["footer__vercelwrapper"]}>
                 <a
@@ -65,7 +65,7 @@ const Footer = () => {
                   <p>info@easygiveback.de</p>
                 </div>
                 <div className={styles["footer__contact"]}>
-                  <img src="./telefon-logo.png" alt="Telefon Logo"/>
+                  <img src="./telefon-logo.png" alt="Telefon Logo" />
                   <p>+49 151 57 900 940</p>
                 </div>
               </div>
