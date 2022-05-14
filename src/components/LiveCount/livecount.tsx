@@ -60,7 +60,7 @@ const LiveCount = () => {
         <section className={styles["livecount__timer"]}>
           <div className={styles["livecount__clock"]}>
             <section className={styles["livecount__numbers__days"]}>
-              <p className={styles["livecount__numbers"]}>{timerDays}</p>
+              <p className={styles["livecount__numbers__days__number"]}>{timerDays}</p>
               <small>Tage</small>
             </section>
             <div className={styles["livecount__clock__wrapper"]}>
