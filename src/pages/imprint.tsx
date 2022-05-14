@@ -5,7 +5,7 @@ import Card from "../components/Card/card";
 const Imprint = () => {
   return (
     <Layout>
-      <BackgroundImage src="/background.png" alt="" />
+      <BackgroundImage src="/background.webp" alt="" />
       <Card isImprint={true} />
     </Layout>
   );
