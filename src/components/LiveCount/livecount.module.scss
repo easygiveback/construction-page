@@ -52,7 +52,7 @@
       &__number {
         font-weight: bold;
         @include xs {
-          font-size: 90px;
+          font-size: 100px;
           line-height: 1.3;
         }
         @include md {

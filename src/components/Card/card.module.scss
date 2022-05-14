@@ -2,6 +2,7 @@
 @import '../../styles/mixins.scss';
 
 .card {
+  overflow: hidden;
   backdrop-filter: blur(2px);
   display: flex;
   justify-content: center;
