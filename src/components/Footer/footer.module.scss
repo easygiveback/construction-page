@@ -2,7 +2,7 @@
 @import '../../styles/mixins.scss';
 
 .footer {
-  margin: gap(2);
+  margin: gap(8);
   color: #fff;
   margin-top: 8vh;
 
@@ -11,9 +11,13 @@
     display: flex;
     @include xs {
       justify-content: center;
+      margin-top: 1rem;
     }
     @include md {
       justify-content: left;
+    }
+    @include lg {
+      margin-top: 0rem;
     }
   }
 
@@ -82,9 +86,10 @@
     }
     @include md {
       align-items: flex-start;
+      margin-top: 0rem;
     }
     @include lg {
-      margin-top: 0rem;
+
     }
   }
 
