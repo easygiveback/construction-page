@@ -27,11 +27,11 @@ const Footer = () => {
               <div className={styles["footer__contact-wrapper"]}>
                 <p>Kontakt</p>
                 <div className={styles["footer__contact"]}>
-                  <img src="./mail-logo.png" alt="E-Mail Logo" />
+                  <img className={styles["footer__contact__icons"]} src="./mail-logo.png" alt="E-Mail Logo" />
                   <p>info@easygiveback.de</p>
                 </div>
                 <div className={styles["footer__contact"]}>
-                  <img src="./telefon-logo.png" alt="Telefon Logo" />
+                  <img className={styles["footer__contact__icons"]} src="./telefon-logo.png" alt="Telefon Logo" />
                   <p>+49 151 57 900 940</p>
                 </div>
               </div>

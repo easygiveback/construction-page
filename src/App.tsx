@@ -15,7 +15,7 @@ function App() {
             path="/"
             element={
               <Layout>
-                <BackgroundImage src="/background.png" alt="Hintergrundbild" />
+                <BackgroundImage src="/background.webp" alt="Hintergrundbild" />
                 <Card isImprint={false} />
               </Layout>
             }
