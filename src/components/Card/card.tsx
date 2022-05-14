@@ -41,7 +41,7 @@ const Card: FC<CardProps> = ({ isImprint }) => {
                 Hilfsorganisationen informieren.
                 In weiterführenden Semestern sollen auch ehrenamtliche Tätigkeiten, Projekte, Sachspenden oder
                 Patenschaften vermittelt werden. Gemeinsam machen wir gute Taten zu Tatsachen - einfach easy Geld für
-                dein Herzensprojekt spenden
+                dein Herzensprojekt spenden.
               </p>
               <Button
                 setFlipMe={() => setFlipMe(!flipMe)}
