@@ -14,7 +14,7 @@
     width: 96%;
   }
   @include xl {
-    height: 480px;
+    height: 520px;
     width: 70%;
   }
 
@@ -44,14 +44,14 @@
   &__backto {
     position: absolute;
     display: flex;
-    top: 15px;
+    top: 22px;
 
     @include xs {
       left: 10px;
 
     }
     @include md {
-      left: 30px;
+      left: 32px;
     }
 
     &__arrow {
@@ -69,7 +69,14 @@
 
   &__front,
   &__back {
+    @include xs {
+      padding: 24px;
+    }
+    @include md {
+      padding: 24px 60px 24px;
+    }
     position: absolute;
+
     width: 100%;
     height: 100%;
     -webkit-backface-visibility: hidden; /* Safari */
@@ -78,6 +85,13 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
+
+    &__fronttextwrapper {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      height: 60%;
+    }
 
     &__h1divider {
       font-weight: lighter;
@@ -92,7 +106,7 @@
     &__description {
       hyphens: auto;
       text-align: justify;
-      width: 80%;
+      width: 100%;
       margin: auto;
       @include xs {
         font-size: 16px !important;
@@ -110,6 +124,7 @@
     align-items: center;
     flex-direction: column;
     height: 100%;
+    padding: 24px;
 
     h1 {
 
@@ -118,6 +133,12 @@
 
     &__bold {
       font-weight: bold;
+      @include xs {
+        margin-top: 14px;
+      }
+      @include md {
+        margin-top: 16px;
+      }
     }
 
     &__text {

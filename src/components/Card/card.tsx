@@ -21,11 +21,11 @@ const Card: FC<CardProps> = ({ isImprint }) => {
         <div className={styles.card}>
           <div className={flip}>
             <div className={styles["card__front"]}>
-              <div><h1>easy<span className={styles["card__front__h1divider"]}>giveback</span></h1></div>
-
-
-              <Livecount />
-              <h2>Wir sehen uns auf der Media Night.</h2>
+              <h1>easy<span className={styles["card__front__h1divider"]}>giveback</span></h1>
+              <div className={styles["card__front__fronttextwrapper"]}>
+                <Livecount />
+                <h2>Wir sehen uns auf der Media Night.</h2>
+              </div>
               <Button
                 setFlipMe={() => setFlipMe(!flipMe)}
                 name={"Mehr erfahren"}
