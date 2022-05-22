@@ -1,5 +1,9 @@
+import Seo from "../../components/seo";
 export default function Imprint() {
-    return (
-        <h1>Imprint</h1>
-    );
+  return (
+    <>
+      <Seo title="easygiveback - Impressum" />
+      <h1>Imprint</h1>
+    </>
+  );
 }
