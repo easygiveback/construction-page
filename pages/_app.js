@@ -1,5 +1,6 @@
 import "../styles/global.scss";
-import "bootstrap/dist/css/bootstrap.min.css";
+// bootstrap grid styles
+import "../node_modules/bootstrap/scss/bootstrap-grid.scss";
 
 function MyApp({ Component, pageProps }) {
   return <Component {...pageProps} />;

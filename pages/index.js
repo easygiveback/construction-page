@@ -8,7 +8,7 @@ export default function Home() {
     <>
       <Seo title="easygiveback – Einfach Gutes tun." />
       <Layout>
-        <BackgroundImage src="/background.webp" alt="Hintergrundbild" />
+        <BackgroundImage alt="Hintergrundbild" />
         <Card isImprint={false} />
       </Layout>
     </>

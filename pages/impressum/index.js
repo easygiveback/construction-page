@@ -8,7 +8,7 @@ export default function Imprint() {
     <>
       <Seo title="easygiveback - Impressum" />
       <Layout>
-        <BackgroundImage src="/background.webp" alt="Hintergrundbild" />
+        <BackgroundImage alt="Hintergrundbild" />
         <Card isimprint={true} />
       </Layout>
     </>
