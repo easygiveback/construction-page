@@ -1,54 +1,75 @@
 import styles from "./header.module.scss";
+import Link from "next/link";
+import Image from "next/image";
+
+//import static images
+import easygivebackLogo from "../../public/easygiveback.png";
+import facebookIcon from "../../public/facebook-icon.png";
+import instagramIcon from "../../public/instagram-icon.png";
+import tiktokIcon from "../../public/tiktok-icon.png";
+import linkedInIcon from "../../public/linkedin-icon.png";
+import githubIcon from "../../public/GitHub-Mark-Light-32px.png";
 
 export default function Header() {
   return (
     <div className={styles.header}>
-      <a href="/">
-        <img
-          className={styles["header__easygivebackImg"]}
-          src="./easygiveback.png"
-          alt="easygiveback Logo"
-        />
-      </a>
+      <Link href="/">
+        <div className={styles["header__easygivebackImg"]}>
+          <Image src={easygivebackLogo} alt="easygiveback Logo" />
+        </div>
+      </Link>
       <div className={styles["header__iconwrapper"]}>
-        <a href="https://www.facebook.com/easygiveback" target="_blank">
-          <img
-            className={styles["header__icons"]}
-            src="./facebook-icon.png"
-            alt="Facebook Logo"
-          />
-        </a>
-        <a href="https://www.instagram.com/easygiveback/" target="_blank">
-          <img
-            className={styles["header__icons"]}
-            src="./instagram-icon.png"
-            alt="Instagram Logo"
-          />
-        </a>
-        <a href="https://www.tiktok.com/@easygiveback" target="_blank">
-          <img
-            className={styles["header__icons"]}
-            src="./tiktok-icon.png"
-            alt="TikTok Logo"
-          />
-        </a>
-        <a
-          href="https://www.linkedin.com/company/easygiveback/"
-          target="_blank"
+        <Link
+          href="https://www.facebook.com/easygiveback"
+          passHref
+          prefetch={false}
         >
-          <img
-            className={styles["header__icons"]}
-            src="linkedin-icon.png"
-            alt="LinkedIn Logo"
-          />
-        </a>
-        <a href="https://github.com/easygiveback" target="_blank">
-          <img
-            className={styles["header__icons"]}
-            src="./GitHub-Mark-Light-32px.png"
-            alt="GitHub Logo"
-          />
-        </a>
+          <a target="_blank" rel="noopener noreferrer">
+            <div className={styles["header__icons"]}>
+              <Image src={facebookIcon} alt="Facebook Logo" />
+            </div>
+          </a>
+        </Link>
+        <Link
+          href="https://www.instagram.com/easygiveback/"
+          passHref
+          prefetch={false}
+        >
+          <a target="_blank" rel="noopener noreferrer">
+            <div className={styles["header__icons"]}>
+              <Image src={instagramIcon} alt="Instagram Logo" />
+            </div>
+          </a>
+        </Link>
+        <Link
+          href="https://www.tiktok.com/@easygiveback"
+          passHref
+          prefetch={false}
+        >
+          <a target="_blank" rel="noopener noreferrer">
+            <div className={styles["header__icons"]}>
+              <Image src={tiktokIcon} alt="TikTok Logo" />
+            </div>
+          </a>
+        </Link>
+        <Link
+          href="https://www.linkedin.com/company/easygiveback/"
+          passHref
+          prefetch={false}
+        >
+          <a target="_blank" rel="noopener noreferrer">
+            <div className={styles["header__icons"]}>
+              <Image src={linkedInIcon} alt="LinkedIn Logo" />
+            </div>
+          </a>
+        </Link>
+        <Link href="https://github.com/easygiveback" passHref prefetch={false}>
+          <a target="_blank" rel="noopener noreferrer">
+            <div className={styles["header__icons"]}>
+              <Image src={githubIcon} alt="GitHub Logo" />
+            </div>
+          </a>
+        </Link>
       </div>
     </div>
   );

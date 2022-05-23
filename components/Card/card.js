@@ -3,6 +3,7 @@ import styles from "./card.module.scss";
 import Button from "../Button/button";
 import classNames from "classnames";
 import { useState } from "react";
+import Link from "next/link";
 
 export default function Card({ isimprint }) {
   const [flipMe, setFlipMe] = useState(false);
@@ -61,11 +62,11 @@ export default function Card({ isimprint }) {
       <>
         <div className={styles.card}>
           <div className={flip}>
-            <a href="/">
+            <Link href="/">
               <div className={styles["card__backto"]}>
                 <p className={styles["card__backto__arrow"]}>&#10140;</p>
               </div>
-            </a>
+            </Link>
             <div className={styles["card__imprint"]}>
               <h1>Impressum</h1>
               <div className={styles["card__imprint__text"]}>
