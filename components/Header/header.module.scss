@@ -14,7 +14,10 @@
     flex-direction: row;
     justify-content: space-between;
   }
-
+&__imgWrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
   &__easygivebackImg {
     @include xs {
       width: 50%;
@@ -23,6 +26,8 @@
       width: 300px;
     }
   }
+}
+
 
   &__iconwrapper {
     display: flex;
