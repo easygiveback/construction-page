@@ -17,7 +17,11 @@ export default function Footer() {
             <Col md={6} lg={3}>
               <div className={styles["footer__container"]}>
                 <div className={styles["footer__container__hdmLogo"]}>
-                  <Link href="https://www.hdm-stuttgart.de/" passHref>
+                  <Link
+                    href="https://www.hdm-stuttgart.de/"
+                    passHref
+                    prefetch={false}
+                  >
                     <a target="_blank" rel="noopener noreferrer">
                       <div className={styles["footer__logo"]}>
                         <Image src={hdmLogo} alt="HdM Logo" />
@@ -74,6 +78,7 @@ export default function Footer() {
                   <Link
                     href="https://vercel.com/?utm_source=easygiveback&amp;utm_campaign=oss"
                     passHref
+                    prefetch={false}
                   >
                     <a target="_blank" rel="noopener noreferrer">
                       <svg
