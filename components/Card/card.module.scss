@@ -1,0 +1,155 @@
+@import '../../styles/variables.scss';
+@import '../../styles/mixins.scss';
+
+.card {
+  overflow: hidden;
+  backdrop-filter: blur(2px);
+  display: flex;
+  justify-content: center;
+
+  @include xs {
+    height: 600px;
+    width: 96%;
+  }
+
+  @include xl {
+    height: 520px;
+    width: 70%;
+    max-width: 1440px;
+    margin: 20px auto;
+  }
+
+  &__flip {
+    transform: rotateY(180deg);
+  }
+
+  &__inner {
+    border-radius: $border-radius;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+
+  &__backto {
+    position: absolute;
+    display: flex;
+    top: 22px;
+
+    @include xs {
+      left: 10px;
+    }
+    @include md {
+      left: 32px;
+    }
+
+    &__arrow {
+      transform: rotate(180deg);
+
+      @include xs {
+        font-size: 36px;
+      }
+      @include md {
+        font-size: 48px;
+      }
+    }
+  }
+
+  &__front,
+  &__back {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.2);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+    border-radius: $border-radius;
+    transform: rotateX(0);
+
+    @include xs {
+      padding: 24px;
+    }
+    @include md {
+      padding: 24px 60px 24px;
+    }
+
+    &__fronttextwrapper {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      height: 60%;
+    }
+
+    &__h1divider {
+      font-weight: lighter;
+    }
+  }
+
+  &__back {
+    transform: rotateY(180deg);
+
+    &__description {
+      hyphens: auto;
+      text-align: justify;
+      width: 100%;
+      margin: auto;
+      @include xs {
+        font-size: 16px !important;
+      }
+      @include sm {
+        font-size: 20px !important;
+      }
+    }
+  }
+
+  &__imprint {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    padding: 24px;
+
+    h1 {
+      font-weight: lighter;
+    }
+
+    &__bold {
+      font-weight: bold;
+      @include xs {
+        margin-top: 14px;
+      }
+      @include md {
+        margin-top: 16px;
+      }
+    }
+
+    &__text {
+      margin: auto;
+
+      @include xs {
+        padding: 0px 20px 0px 20px;
+      }
+      @include sm {
+      }
+
+      p {
+        @include xs {
+          font-size: 14px !important;
+          line-break: auto;
+        }
+        @include sm {
+          font-size: 16px !important;
+        }
+      }
+    }
+  }
+}

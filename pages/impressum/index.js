@@ -1,9 +1,16 @@
 import Seo from "../../components/seo";
+import Layout from "../../components/Layout/layout";
+import BackgroundImage from "../../components/Image/image-background";
+import Card from "../../components/Card/card";
+
 export default function Imprint() {
   return (
     <>
       <Seo title="easygiveback - Impressum" />
-      <h1>Imprint</h1>
+      <Layout>
+        <BackgroundImage src="/background.webp" alt="Hintergrundbild" />
+        <Card isimprint={true} />
+      </Layout>
     </>
   );
 }
