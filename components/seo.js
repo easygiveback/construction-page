@@ -4,7 +4,10 @@ export default function Seo({ title }) {
   return (
     <>
       <Head>
+        <html lang="de">
         <meta charSet="utf-8" />
+        <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+        <meta name="theme-color" content="#223C48">
         <title>{title}</title>
         <meta
           name="description"
