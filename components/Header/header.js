@@ -14,9 +14,11 @@ export default function Header() {
   return (
     <div className={styles.header}>
       <Link href="/">
-        <div className={styles["header__easygivebackImg"]}>
-          <Image src={easygivebackLogo} alt="easygiveback Logo" />
-        </div>
+        <a>
+          <div className={styles["header__easygivebackImg"]}>
+            <Image src={easygivebackLogo} alt="easygiveback Logo" />
+          </div>
+        </a>
       </Link>
       <div className={styles["header__iconwrapper"]}>
         <Link

@@ -25,7 +25,25 @@ export default function Card({ isimprint }) {
               </h1>
               <div className={styles["card__front__fronttextwrapper"]}>
                 <LiveCount />
-                <h2>Wir sehen uns auf der Media Night.</h2>
+
+                <h2>
+                  Wir sehen uns auf der{" "}
+                  <Link
+                    href="https://www.hdm-stuttgart.de/medianight"
+                    passHref
+                    prefetch={false}
+                  >
+                    <a
+                      className={
+                        styles["card__back__fronttextwrapper__medianight"]
+                      }
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Media Night.
+                    </a>
+                  </Link>
+                </h2>
               </div>
               <Button
                 setFlipMe={() => setFlipMe(!flipMe)}
@@ -63,9 +81,11 @@ export default function Card({ isimprint }) {
         <div className={styles.card}>
           <div className={flip}>
             <Link href="/">
-              <div className={styles["card__backto"]}>
-                <p className={styles["card__backto__arrow"]}>&#10140;</p>
-              </div>
+              <a>
+                <div className={styles["card__backto"]}>
+                  <p className={styles["card__backto__arrow"]}>&#10140;</p>
+                </div>
+              </a>
             </Link>
             <div className={styles["card__imprint"]}>
               <h1>Impressum</h1>

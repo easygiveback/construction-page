@@ -86,6 +86,10 @@
       flex-direction: column;
       justify-content: space-evenly;
       height: 60%;
+
+      &__medianight {
+        font-size: 28px;
+      }
     }
 
     &__h1divider {
