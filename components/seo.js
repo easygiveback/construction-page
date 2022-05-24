@@ -1,4 +1,8 @@
 import Head from "next/head";
+import cropped32 from "../public/cropped-Favicon_blau-1-32x32.png"
+import cropped192 from "../public/cropped-Favicon_blau-1-192x192.png"
+import cropped180 from "../public/cropped-Favicon_blau-1-180x180.png"
+import cropped270 from "../public/cropped-Favicon_blau-1-270x270.png"
 
 export default function Seo({ title }) {
   return (
@@ -18,21 +22,21 @@ export default function Seo({ title }) {
         />
         <link
           rel="icon"
-          href="../public/cropped-Favicon_blau-1-32x32.png"
+          href={cropped32}
           sizes="32x32"
         />
         <link
           rel="icon"
-          href="../public/cropped-Favicon_blau-1-192x192.png"
+          href={cropped192}
           sizes="192x192"
         />
         <link
           rel="apple-touch-icon"
-          href="../public/cropped-Favicon_blau-1-180x180.png"
+          href={cropped180}
         />
         <meta
           name="msapplication-TileImage"
-          content="../public/cropped-Favicon_blau-1-270x270.png"
+          content={cropped270}
         />
       </Head>
     </>
