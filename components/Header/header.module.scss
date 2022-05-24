@@ -1,0 +1,59 @@
+@import '../../styles/mixins.scss';
+
+.header {
+  display: flex;
+
+  margin: 5vh 8vw 5vh;
+  align-items: center;
+  @include xs {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  @include sm {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+&__imgWrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  &__easygivebackImg {
+    @include xs {
+      width: 50%;
+    }
+    @include sm {
+      width: 300px;
+    }
+  }
+}
+
+
+  &__iconwrapper {
+    display: flex;
+
+    @include xs {
+      width: 70%;
+      justify-content: space-evenly;
+      margin-top: 1rem;
+
+    }
+    @include sm {
+      width: 160px;
+      justify-content: space-between;
+      margin-top: 0;
+    }
+  }
+
+  &__icons {
+    @include xs {
+      width: 27px;
+      height: 27px;
+    }
+    @include sm {
+      width: 20px;
+      height: 20px;
+    }
+
+  }
+}

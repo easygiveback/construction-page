@@ -1,0 +1,24 @@
+@import '../../styles/variables.scss';
+@import '../../styles/mixins.scss';
+
+.button {
+  border-radius: 24px;
+  background-color: $color-green;
+  padding: 15px;
+  height: 72px;
+  border: 0px;
+  font-size: 20px;
+  cursor: pointer;
+  color: black;
+
+  @include xs {
+    width: 100%;
+  }
+  @include xl {
+    width: 30%;
+  }
+
+  &:hover {
+    background-color: $color-green-hover;
+  }
+}
