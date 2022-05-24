@@ -84,6 +84,7 @@ export default function Footer() {
                       <svg
                         width="212"
                         height="44"
+                        alt="Vercel Logo"
                         viewBox="0 0 212 44"
                         fill="none"
                         xmlns="http://www.w3.org/2000/svg"
